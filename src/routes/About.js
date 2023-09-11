@@ -25,6 +25,7 @@ export default function About(){
       heroImg={backgroundImg}
       title="About"
       btnClass="hide"
+    
       />
       <AboutUs />
       <Footer />

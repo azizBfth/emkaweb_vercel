@@ -7,6 +7,7 @@ import RecentWork from "../components/RecentWork";
 import Footer from "../components/Footer"
 import { useLocation } from "react-router-dom";
 import PopularProducts from "../components/popularProducts/PopularProducts";
+import PicSlider from "../components/slider/PicSlider";
 
 export default function Home() {
   const routePath = useLocation();
@@ -33,6 +34,7 @@ export default function Home() {
       <Products />
       <PopularProducts />
       <RecentWork />
+      <PicSlider />
       <Footer />
     </>
   );

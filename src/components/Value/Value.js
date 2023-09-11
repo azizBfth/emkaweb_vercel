@@ -17,7 +17,7 @@ import "./Value.css";
 import valueImg from "../../assets/softwareSolution.jpg"
 // Demo styles, see 'Styles' section below for some notes on use.
 
-const Value = () => {
+const Value = (props) => {
 
 
   const [className, setClassName] = useState(null);
@@ -34,9 +34,9 @@ const Value = () => {
 
         {/* right */}
         <div className="flexColStart v-right">
-          <span className="orangeText">Our Value</span>
+          <span className="orangeText">{props.title}</span>
 
-          <span className="primaryText">Value We Give to You</span>
+          <span className="primaryText">{props.sousTitle}</span>
 
           <span className="secondaryText">
             We always ready to help by providijng the best services for you.

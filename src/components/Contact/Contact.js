@@ -34,8 +34,7 @@ const ContactRes = () => {
           <span className="orangeText">Our Contact </span>
           <span className="primaryText">Easy to contact us</span>
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you. We
-            beleive a good blace to live can make your life better{" "}
+            We always ready to help by providijng the best services for you.{" "}
           </span>
 
           <div className="flexColStart contactModes">
@@ -51,7 +50,7 @@ const ContactRes = () => {
                     <span className="secondaryText">00216 56 100 591</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Call now</div>
+                <div className="flexCenter button"><a href="tel:0021656100591" >Call now</a></div>
               </div>
 
               <div className="flexColCenter mode">
@@ -64,7 +63,7 @@ const ContactRes = () => {
                     <span className="secondaryText">00216 56 100 591</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Chat now</div>
+                <div className="flexCenter button"><a href="tel:0021656100591"> Chat now </a> </div>
               </div>
             </div>
 
@@ -80,7 +79,7 @@ const ContactRes = () => {
                     <span className="secondaryText">00216 56 100 591</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Video Call now</div>
+                <div className="flexCenter button"><a href="tel:0021656100591"> Video Call now</a> </div>
               </div>
 
               <div className="flexColCenter mode">
@@ -93,7 +92,7 @@ const ContactRes = () => {
                     <span className="secondaryText">00216 56 100 591</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Message now</div>
+                <div className="flexCenter button"><a href="tel:0021656100591"> Message now </a> </div>
               </div>
             </div>
           </div>
@@ -103,12 +102,7 @@ const ContactRes = () => {
         <div className="flexEnd c-right">
           <div className="image-container">
           <Box
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                height: "100vh",
-              }}
+           
             >
               <Box sx={{ maxWidth: 600, mx: "auto", p: 2 }}>
                 <Typography variant="h4" align="center" mb={2}>

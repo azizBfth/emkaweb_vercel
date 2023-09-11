@@ -24,7 +24,9 @@ export default function AboutUs() {
         <h1>Our Vision</h1>
         <p> vision description</p>
       </div>
-      <Value />
+      <Value title="Our Vision" sousTitle="Vision We Give to You"/>
+
+      <Value title="Our Value" sousTitle="Value We Give to You"/>
     </>
   );
 }
