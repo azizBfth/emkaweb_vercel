@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import { Toaster, toast } from "react-hot-toast";
 
 function App() {
-  useEffect(() => {
+ /* useEffect(() => {
     document.addEventListener("contextmenu", handleContextmenu);
     return function cleanup() {
       document.removeEventListener("contextmenu", handleContextmenu);
@@ -18,8 +18,9 @@ function App() {
   }, []);
   const handleContextmenu = (e) => {
     e.preventDefault();
-    toast.error("Right Click is disabled ");
+   // toast.error("Right Click is disabled ");
   };
+  */
   return (
     <>
       <Toaster />
