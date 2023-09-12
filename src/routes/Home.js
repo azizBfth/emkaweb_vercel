@@ -32,7 +32,6 @@ export default function Home() {
       btnClass="show"
       />
       <Products />
-      <PopularProducts />
       <RecentWork />
       <PicSlider />
       <Footer />
