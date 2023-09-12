@@ -2,6 +2,10 @@ import { Component } from "react";
 import "./NavbarStyles.css";
 import { Link, Outlet } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+
+
 class NavBar extends Component {
   state = { clicked: false };
   handleClick = () => {
@@ -16,7 +20,7 @@ class NavBar extends Component {
         <div className="menu-icons" onClick={this.handleClick}>
           <i
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-          ></i>
+          >{this.state.clicked ? <CloseIcon />:<MenuIcon />}</i>
         </div>
 
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
